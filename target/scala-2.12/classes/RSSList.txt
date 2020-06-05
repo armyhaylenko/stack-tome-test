@@ -1,0 +1,14 @@
+https://112.ua/rss/index.rss
+https://112.ua/rss/analytics/index.rss
+https://112.ua/rss/statji/index.rss
+https://112.ua/rss/mnenie/index.rss
+https://112.ua/rss/interview/index.rss
+https://112.ua/rss/politika/index.rss
+https://112.ua/rss/ato/index.rss
+https://112.ua/rss/ekonomika/index.rss
+https://112.ua/rss/novosti-kanala/channel.rss?type=index
+https://112.ua/rss/sport/index.rss
+https://112.ua/rss/kiev/index.rss
+https://112.ua/rss/mir/index.rss
+https://112.ua/rss/avarii-chp/index.rss
+https://112.ua/rss/kriminal/index.rss
