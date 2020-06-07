@@ -1,7 +1,6 @@
 import sttp.client._
 import zio.App
 import zio.Runtime.default
-import scala.concurrent.{Await, ExecutionContext}
 import zio.{ExitCode, ZIO}
 import zio.Task
 import zio.Schedule
@@ -14,18 +13,20 @@ import scala.xml.XML
 import scala.xml.Elem
 import scala.io.Source._
 import java.io.File
+import scala.collection.immutable.{Nil, Seq}
+import scala.annotation.tailrec
 
 object NewsGetter extends zio.App {
-  val allRss = Task(fromFile(new File("src\\main\\resources\\RSSList.txt")).getLines().toList)
-  val index = News("https://112.ua/rss/index.rss").subscriptionData
-  val analytics = News("https://112.ua/rss/analytics/index.rss").subscriptionData
 
-  val trends = Trends("https://trends.google.com/trends/trendingsearches/daily/rss?geo=UA").trendsData
+  def print[A](zio: Task[A]) = zio.flatMap(x => putStrLn(x.toString()))
 
-  def print(zio: Task[String]) = zio.flatMap(putStrLn(_))
-
-  def run(args: List[String]): ZIO[zio.ZEnv,Nothing, ExitCode] = {
-    allRss.flatMap(list => putStrLn(list.toString())).repeat(Schedule.spaced(10 seconds)) exitCode
+  override def run(args: List[String]): ZIO[zio.ZEnv,Nothing, ExitCode] = {
+    AsyncHttpClientZioBackend().flatMap { implicit backend =>
+      val allNews = News(fromFile(new File("src\\main\\resources\\RSSList.txt"))
+        .getLines().toList).info.fold(Task(Seq()))((z1, z2) => z1.zipWithPar(z2)(_ ++ _))
+      val trends = Trends("https://trends.google.com/trends/trendingsearches/daily/rss?geo=UA").trendsData
+      print(NewsTrendsMatcher(allNews, trends)) *> backend.close()
+    } repeat (Schedule.spaced(300 seconds)) exitCode
   }
   
 }
