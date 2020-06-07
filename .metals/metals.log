@@ -9933,3 +9933,649 @@ WARNING: Unmatched cancel notification for request id 34138
 2020.06.07 01:58:30 INFO  shutting down Metals
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
+2020.06.07 14:48:27 INFO  started: Metals version 0.9.0 in workspace 'C:\MYKH\VSCODE\StackTomeTest'
+2020.06.07 14:48:28 INFO  time: initialize in 0.95s
+2020.06.07 14:48:29 INFO  skipping build import with status 'Installed'
+2020.06.07 14:48:29 INFO  no build target: using presentation compiler with only scala-library
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30687'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.06.07 14:48:34 WARN  no build target for: C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-229-b7c15aa9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\mykh\VSCODE\StackTomeTest\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\mykh\VSCODE\StackTomeTest\.bloop\stacktometest.json'
+[0m[32m[D][0m Loading project from 'c:\mykh\VSCODE\StackTomeTest\.bloop\stacktometest-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\jansi.jar
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\jline.jar
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\scala-compiler.jar
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\scala-library.jar
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\scala-reflect.jar
+[0m[32m[D][0m   => C:\Users\ACER\.sbt\boot\scala-2.12.10\lib\scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'stacktometest-test', 'stacktometest'
+[0m[32m[D][0m Missing analysis file for project 'stacktometest-test'
+[0m[32m[D][0m Loading previous analysis for 'stacktometest' from 'C:\MYKH\VSCODE\StackTomeTest\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30687...
+The server is listening for incoming connections at tcp://127.0.0.1:30687...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.06.07 14:48:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ACER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.06.07 14:48:43 INFO  time: connected to build server in 14s
+2020.06.07 14:48:43 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.06.07 14:48:43 INFO  time: imported build in 0.34s
+2020.06.07 14:48:48 INFO  time: indexed workspace in 4.18s
+2020.06.07 14:50:19 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:50:25 INFO  time: compiled stacktometest in 5.67s
+2020.06.07 14:50:26 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:50:28 INFO  time: compiled stacktometest in 1.47s
+2020.06.07 14:50:38 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:50:38 INFO  time: compiled stacktometest in 0.9s
+2020.06.07 14:50:40 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:50:41 INFO  time: compiled stacktometest in 1.06s
+2020.06.07 14:50:44 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:50:44 INFO  time: compiled stacktometest in 0.93s
+2020.06.07 14:51:03 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:51:09 INFO  time: compiled stacktometest in 6.12s
+2020.06.07 14:51:13 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:51:16 INFO  time: compiled stacktometest in 3.44s
+2020.06.07 14:54:21 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:54:23 INFO  time: compiled stacktometest in 1.86s
+2020.06.07 14:55:10 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:55:12 INFO  time: compiled stacktometest in 2.4s
+2020.06.07 14:55:12 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:55:14 INFO  time: compiled stacktometest in 1.16s
+2020.06.07 14:57:55 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:57:55 INFO  time: compiled stacktometest in 0.35s
+2020.06.07 14:57:57 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:57:57 INFO  time: compiled stacktometest in 0.49s
+2020.06.07 14:58:03 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:03 INFO  time: compiled stacktometest in 0.36s
+2020.06.07 14:58:04 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:04 INFO  time: compiled stacktometest in 0.55s
+2020.06.07 14:58:29 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:31 INFO  time: compiled stacktometest in 1.77s
+2020.06.07 14:58:31 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:31 INFO  time: compiled stacktometest in 0.45s
+2020.06.07 14:58:32 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:34 INFO  time: compiled stacktometest in 1.6s
+2020.06.07 14:58:34 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:34 INFO  time: compiled stacktometest in 0.29s
+2020.06.07 14:58:36 INFO  compiling stacktometest (1 scala source)
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala in List[String]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala, 928, 928, 940)
+2020.06.07 14:58:38 INFO  time: compiled stacktometest in 2.38s
+2020.06.07 14:58:38 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:38 INFO  time: compiled stacktometest in 0.35s
+2020.06.07 14:58:51 INFO  compiling stacktometest (1 scala source)
+2020.06.07 14:58:53 INFO  time: compiled stacktometest in 1.8s
+2020.06.07 15:03:17 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:03:18 INFO  time: compiled stacktometest in 1.17s
+2020.06.07 15:03:18 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:03:18 INFO  time: compiled stacktometest in 0.84s
+2020.06.07 15:04:48 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:04:48 INFO  time: compiled stacktometest in 0.42s
+2020.06.07 15:04:50 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:04:50 INFO  time: compiled stacktometest in 0.41s
+2020.06.07 15:05:29 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:05:30 INFO  time: compiled stacktometest in 1.16s
+2020.06.07 15:05:30 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:05:30 INFO  time: compiled stacktometest in 0.71s
+2020.06.07 15:06:49 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:06:51 INFO  time: compiled stacktometest in 1.22s
+черв. 07, 2020 3:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1701
+2020.06.07 15:11:27 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:11:28 INFO  time: compiled stacktometest in 1.08s
+2020.06.07 15:11:28 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:11:28 INFO  time: compiled stacktometest in 0.75s
+2020.06.07 15:17:06 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:17:09 INFO  time: compiled stacktometest in 2.8s
+2020.06.07 15:18:28 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:18:30 INFO  time: compiled stacktometest in 1.86s
+2020.06.07 15:19:23 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:19:23 INFO  time: compiled stacktometest in 0.23s
+2020.06.07 15:19:24 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:19:24 INFO  time: compiled stacktometest in 0.38s
+2020.06.07 15:19:29 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:19:31 INFO  time: compiled stacktometest in 1.37s
+2020.06.07 15:23:03 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:23:05 INFO  time: compiled stacktometest in 1.96s
+2020.06.07 15:33:40 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:33:43 INFO  time: compiled stacktometest in 2.16s
+2020.06.07 15:35:09 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:35:09 INFO  time: compiled stacktometest in 0.25s
+2020.06.07 15:35:49 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:35:49 INFO  time: compiled stacktometest in 0.26s
+2020.06.07 15:36:13 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:58: stale bloop error: ';' expected but ')' found.
+        val links = (news \ "item" \ "link") map (_.text))
+                                                         ^
+2020.06.07 15:36:13 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:58: stale bloop error: ';' expected but ')' found.
+        val links = (news \ "item" \ "link") map (_.text))
+                                                         ^
+2020.06.07 15:36:13 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:58: stale bloop error: ';' expected but ')' found.
+        val links = (news \ "item" \ "link") map (_.text))
+                                                         ^
+2020.06.07 15:36:13 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:58: stale bloop error: ';' expected but ')' found.
+        val links = (news \ "item" \ "link") map (_.text))
+                                                         ^
+2020.06.07 15:36:38 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:36:38 INFO  time: compiled stacktometest in 0.49s
+2020.06.07 15:36:39 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:36:39 INFO  time: compiled stacktometest in 0.52s
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:46 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:47 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:47 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:47 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:26: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val headlines = (news \ "item" \ "title") map (n => format(n.text))
+                         ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:27:22: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val links = (news \ "item" \ "link") map (_.text)
+                     ^^^^^^
+2020.06.07 15:38:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:28:25: stale bloop error: value \ is not a member of zio.ZIO[Any,Throwable,scala.xml.NodeSeq]
+        val fullText = (news \ "item" \ "fulltext") map (n => format(n.text).replaceAll("([a-z]|\\[|\\]|(<>))", "")
+                        ^^^^^^
+2020.06.07 15:39:11 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:39:11 INFO  time: compiled stacktometest in 0.33s
+2020.06.07 15:39:12 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:39:12 INFO  time: compiled stacktometest in 0.44s
+2020.06.07 15:40:09 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:40:09 INFO  time: compiled stacktometest in 0.3s
+2020.06.07 15:40:10 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:40:10 INFO  time: compiled stacktometest in 0.49s
+2020.06.07 15:41:17 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:41:17 INFO  time: compiled stacktometest in 0.32s
+2020.06.07 15:41:18 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:41:18 INFO  time: compiled stacktometest in 0.42s
+2020.06.07 15:42:08 INFO  compiling stacktometest (1 scala source)
+2020.06.07 15:42:10 INFO  time: compiled stacktometest in 2.29s
+черв. 07, 2020 3:43:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2752
+черв. 07, 2020 3:44:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": "conflictResolution:/c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/ResourceData.scala?%7B%22scheme%22%3A%22file%22%7D"
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "conflictResolution" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:402)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:747)
+	... 15 more
+
+черв. 07, 2020 3:45:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": "conflictResolution:/c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/ResourceData.scala?%7B%22scheme%22%3A%22file%22%7D"
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "conflictResolution" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:402)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:747)
+	... 15 more
+
+черв. 07, 2020 3:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": "conflictResolution:/c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/ResourceData.scala?%7B%22scheme%22%3A%22file%22%7D"
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "conflictResolution" not installed
+	at java.nio.file.Paths.get(Paths.java:147)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:402)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:747)
+	... 15 more
+
+2020.06.07 16:03:23 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:03:23 INFO  time: compiled stacktometest in 0.41s
+2020.06.07 16:03:24 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:03:24 INFO  time: compiled stacktometest in 0.42s
+2020.06.07 16:03:30 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:03:30 INFO  time: compiled stacktometest in 0.58s
+2020.06.07 16:03:35 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:03:35 INFO  time: compiled stacktometest in 0.4s
+2020.06.07 16:03:36 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:03:36 INFO  time: compiled stacktometest in 0.33s
+2020.06.07 16:07:08 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:07:09 INFO  time: compiled stacktometest in 1.77s
+2020.06.07 16:08:49 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:08:51 INFO  time: compiled stacktometest in 2.21s
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/ResourceData.scala in List[String]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/ResourceData.scala, 550, 550, 562)
+2020.06.07 16:10:11 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:10:12 INFO  time: compiled stacktometest in 1.68s
+2020.06.07 16:12:31 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:12:31 INFO  time: compiled stacktometest in 0.35s
+2020.06.07 16:12:33 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:12:33 INFO  time: compiled stacktometest in 0.45s
+2020.06.07 16:12:35 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:12:37 INFO  time: compiled stacktometest in 1.65s
+2020.06.07 16:12:51 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:12:52 INFO  time: compiled stacktometest in 1.34s
+2020.06.07 16:13:01 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:13:02 INFO  time: compiled stacktometest in 1.3s
+2020.06.07 16:27:23 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:27:24 INFO  time: compiled stacktometest in 1.82s
+2020.06.07 16:30:11 INFO  Listening for transport dt_socket at address: 49493
+2020.06.07 16:30:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ACER\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2020.06.07 16:30:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ACER\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2020.06.07 16:30:11 INFO  Starting debug proxy for [NewsGetter]
+2020.06.07 16:30:11 INFO  Trying to attach to remote debuggee VM localhost:49493 .
+2020.06.07 16:30:12 INFO  Attaching to debuggee VM succeeded.
+2020.06.07 16:30:14 ERROR SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2020.06.07 16:30:14 ERROR SLF4J: Defaulting to no-operation (NOP) logger implementation
+2020.06.07 16:30:14 ERROR SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2020.06.07 16:30:16 INFO  Canceling debug proxy for [NewsGetter]
+2020.06.07 16:34:33 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:34:35 INFO  time: compiled stacktometest in 2.41s
+2020.06.07 16:38:19 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:38:22 INFO  time: compiled stacktometest in 2.04s
+2020.06.07 16:39:13 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:39:15 INFO  time: compiled stacktometest in 1.84s
+2020.06.07 16:39:24 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:39:26 INFO  time: compiled stacktometest in 2.15s
+2020.06.07 16:40:11 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:40:13 INFO  time: compiled stacktometest in 1.32s
+2020.06.07 16:41:44 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:41:45 INFO  time: compiled stacktometest in 1.36s
+2020.06.07 16:57:18 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:57:19 INFO  time: compiled stacktometest in 1.54s
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala in List[String]RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala, 937, 937, 949)
+2020.06.07 16:58:46 INFO  compiling stacktometest (1 scala source)
+2020.06.07 16:58:47 INFO  time: compiled stacktometest in 1.44s
+черв. 07, 2020 4:59:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4267
+2020.06.07 17:06:01 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:06:01 INFO  time: compiled stacktometest in 0.61s
+черв. 07, 2020 5:06:01 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.07 17:07:38 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:07:40 INFO  time: compiled stacktometest in 2.33s
+2020.06.07 17:07:40 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:07:40 INFO  time: compiled stacktometest in 0.78s
+2020.06.07 17:08:46 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:08:48 INFO  time: compiled stacktometest in 1.93s
+2020.06.07 17:08:48 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:08:48 INFO  time: compiled stacktometest in 0.73s
+2020.06.07 17:09:03 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:09:05 INFO  time: compiled stacktometest in 2.29s
+2020.06.07 17:09:05 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:09:05 INFO  time: compiled stacktometest in 0.56s
+2020.06.07 17:10:32 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:32 INFO  time: compiled stacktometest in 0.79s
+черв. 07, 2020 5:10:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.07 17:10:34 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:34 INFO  time: compiled stacktometest in 0.63s
+Exception in thread "pool-5-thread-1" java.lang.Error: scala.tools.nsc.interactive.ShutdownReq$
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.tools.nsc.interactive.ShutdownReq$
+2020.06.07 17:10:52 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:52 INFO  time: compiled stacktometest in 0.23s
+2020.06.07 17:10:54 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:54 INFO  time: compiled stacktometest in 0.29s
+2020.06.07 17:10:57 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:57 INFO  time: compiled stacktometest in 0.37s
+2020.06.07 17:10:58 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:10:58 INFO  time: compiled stacktometest in 0.34s
+2020.06.07 17:11:18 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:11:19 INFO  time: compiled stacktometest in 1.48s
+2020.06.07 17:12:26 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:12:27 INFO  time: compiled stacktometest in 1.36s
+2020.06.07 17:16:14 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:16:16 INFO  time: compiled stacktometest in 2.64s
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in (String, String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 162, 162, 178)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in Seq[(String, String, String)]RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 157, 157, 186)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in (String, String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 71, 71, 87)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in (String, String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 71, 71, 87)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in Seq[((String, String), String)]RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 66, 66, 97)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in ((String, String), String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 70, 70, 96)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in (String, String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 71, 71, 87)
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in (String, String)RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 71, 71, 87)
+черв. 07, 2020 5:29:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5629
+2020.06.07 17:32:00 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:32:00 INFO  time: compiled stacktometest in 0.2s
+something's wrong: no file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala in List[String]RangePosition(file:///c%3A/mykh/VSCODE/StackTomeTest/src/main/scala/NewsGetter.scala, 937, 937, 949)
+2020.06.07 17:37:41 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:37:41 INFO  time: compiled stacktometest in 0.16s
+2020.06.07 17:37:42 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:37:42 INFO  time: compiled stacktometest in 0.21s
+2020.06.07 17:37:52 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:37:52 INFO  time: compiled stacktometest in 0.28s
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in zio.Task[Seq[(String, String, String)]]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 61, 61, 96)
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in zio.Task[Seq[(String, String, String)]]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 61, 61, 96)
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in zio.Task[Seq[(String, String, String)]]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 61, 61, 96)
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in zio.Task[Seq[(String, String, String)]]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 61, 61, 96)
+something's wrong: no file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala in Seq[(String, String, String)]RangePosition(file:///c%3A/MYKH/VSCODE/StackTomeTest/src/main/scala/NewsTrendsMatcher.scala, 61, 61, 90)
+2020.06.07 17:42:18 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:42:18 INFO  time: compiled stacktometest in 0.49s
+2020.06.07 17:42:19 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:42:19 INFO  time: compiled stacktometest in 0.44s
+2020.06.07 17:42:27 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:42:27 INFO  time: compiled stacktometest in 0.33s
+2020.06.07 17:42:29 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:42:29 INFO  time: compiled stacktometest in 0.64s
+2020.06.07 17:43:17 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:43:17 INFO  time: compiled stacktometest in 0.42s
+2020.06.07 17:43:18 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:43:18 INFO  time: compiled stacktometest in 0.52s
+2020.06.07 17:43:20 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:43:20 INFO  time: compiled stacktometest in 0.52s
+2020.06.07 17:43:30 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 17:43:32 INFO  time: compiled stacktometest in 2.61s
+2020.06.07 17:43:42 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:43:44 INFO  time: compiled stacktometest in 1.92s
+2020.06.07 17:43:44 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:43:44 INFO  time: compiled stacktometest in 0.72s
+2020.06.07 17:43:54 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:43:56 INFO  time: compiled stacktometest in 1.89s
+2020.06.07 17:44:07 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:44:09 INFO  time: compiled stacktometest in 1.28s
+черв. 07, 2020 5:44:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.07 17:44:54 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:44:55 INFO  time: compiled stacktometest in 1.25s
+2020.06.07 17:55:09 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:55:11 INFO  time: compiled stacktometest in 2.03s
+2020.06.07 17:58:13 INFO  compiling stacktometest (1 scala source)
+2020.06.07 17:58:13 INFO  time: compiled stacktometest in 0.2s
+2020.06.07 18:00:42 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:00:42 INFO  time: compiled stacktometest in 0.22s
+2020.06.07 18:00:43 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:00:43 INFO  time: compiled stacktometest in 0.3s
+2020.06.07 18:00:47 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:00:47 INFO  time: compiled stacktometest in 0.24s
+черв. 07, 2020 6:01:24 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:01:35 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:54: stale bloop error: ';' expected but ',' found.
+          left => Seq(("Failed", "Failed", "Failed")), 
+                                                     ^
+2020.06.07 18:02:07 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:02:07 INFO  time: compiled stacktometest in 0.32s
+2020.06.07 18:02:09 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:02:09 INFO  time: compiled stacktometest in 0.45s
+черв. 07, 2020 6:04:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7584
+2020.06.07 18:06:29 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:06:31 INFO  time: compiled stacktometest in 2.02s
+2020.06.07 18:06:31 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:06:31 INFO  time: compiled stacktometest in 0.85s
+черв. 07, 2020 6:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7891
+2020.06.07 18:23:32 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:23:35 INFO  time: compiled stacktometest in 2.9s
+черв. 07, 2020 6:34:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8118
+черв. 07, 2020 6:34:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8225
+черв. 07, 2020 6:38:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8580
+2020.06.07 18:40:11 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:12 INFO  time: compiled stacktometest in 1.75s
+2020.06.07 18:40:12 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:12 INFO  time: compiled stacktometest in 0.28s
+2020.06.07 18:40:14 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:16 INFO  time: compiled stacktometest in 1.93s
+2020.06.07 18:40:16 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:16 INFO  time: compiled stacktometest in 0.2s
+2020.06.07 18:40:17 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:19 INFO  time: compiled stacktometest in 2.27s
+2020.06.07 18:40:19 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:40:19 INFO  time: compiled stacktometest in 0.21s
+2020.06.07 18:41:38 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:41:38 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:41:38 INFO  time: compiled stacktometest in 0.43s
+2020.06.07 18:41:40 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:41:40 INFO  time: compiled stacktometest in 0.55s
+2020.06.07 18:41:40 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:41:41 INFO  time: compiled stacktometest in 0.26s
+2020.06.07 18:41:42 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:41:42 INFO  time: compiled stacktometest in 0.54s
+2020.06.07 18:41:54 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:41:54 INFO  time: compiled stacktometest in 0.33s
+2020.06.07 18:41:55 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:41:55 INFO  time: compiled stacktometest in 0.59s
+черв. 07, 2020 6:42:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.06.07 18:42:35 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:42:38 INFO  time: compiled stacktometest in 2.54s
+2020.06.07 18:44:32 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:44:32 INFO  time: compiled stacktometest in 0.28s
+2020.06.07 18:44:33 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:44:33 INFO  time: compiled stacktometest in 0.3s
+черв. 07, 2020 6:44:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9226
+черв. 07, 2020 6:45:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9250
+черв. 07, 2020 6:45:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9255
+2020.06.07 18:45:29 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:45:29 INFO  time: compiled stacktometest in 0.26s
+2020.06.07 18:45:30 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:45:30 INFO  time: compiled stacktometest in 0.32s
+2020.06.07 18:46:01 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:46:01 INFO  time: compiled stacktometest in 0.27s
+2020.06.07 18:46:02 INFO  compiling stacktometest (1 scala source)
+2020.06.07 18:46:02 INFO  time: compiled stacktometest in 0.32s
+2020.06.07 18:50:18 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:50:18 INFO  time: compiled stacktometest in 0.22s
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:25:70: stale bloop error: illegal start of simple expression
+          case _: NoSuchElementException => newsResponse.map(resp => )
+                                                                     ^
+2020.06.07 18:53:48 INFO  C:\MYKH\VSCODE\StackTomeTest\src\main\scala\ResourceData.scala:26:9: stale bloop error: ')' expected but '}' found.
+        }
+        ^
+2020.06.07 18:55:41 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:55:41 INFO  time: compiled stacktometest in 0.44s
+2020.06.07 18:55:43 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:55:43 INFO  time: compiled stacktometest in 0.69s
+2020.06.07 18:55:45 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:55:45 INFO  time: compiled stacktometest in 0.34s
+2020.06.07 18:55:58 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:55:58 INFO  time: compiled stacktometest in 0.35s
+2020.06.07 18:55:59 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:55:59 INFO  time: compiled stacktometest in 0.47s
+2020.06.07 18:56:06 INFO  compiling stacktometest (3 scala sources)
+2020.06.07 18:56:09 INFO  time: compiled stacktometest in 2.71s
+черв. 07, 2020 7:02:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.06.07 19:04:39 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

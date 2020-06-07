@@ -14,7 +14,7 @@
             
         ],
         "classpath": [
-            "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar",
+            "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11.jar",
             "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\dev\\zio\\zio_2.12\\1.0.0-RC20\\zio_2.12-1.0.0-RC20.jar",
             "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client\\core_2.12\\2.1.5\\core_2.12-2.1.5.jar",
             "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\com\\softwaremill\\sttp\\client\\async-http-client-backend-zio_2.12\\2.1.5\\async-http-client-backend-zio_2.12-2.1.5.jar",
@@ -50,7 +50,7 @@
         "scala": {
             "organization": "org.scala-lang",
             "name": "scala-compiler",
-            "version": "2.12.10",
+            "version": "2.12.11",
             "options": [
                 "-feature",
                 "-deprecation",
@@ -60,12 +60,12 @@
                 "-Xplugin:C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\kind-projector_2.12\\0.10.3\\kind-projector_2.12-0.10.3.jar"
             ],
             "jars": [
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\jansi.jar",
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\jline.jar",
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-compiler.jar",
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar",
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-reflect.jar",
-                "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-xml_2.12.jar"
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.12.11\\scala-compiler-2.12.11.jar",
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11.jar",
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.11\\scala-reflect-2.12.11.jar",
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar",
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar"
             ],
             "analysis": "C:\\MYKH\\VSCODE\\StackTomeTest\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
             "setup": {
@@ -138,17 +138,17 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.10",
+                    "version": "2.12.11",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar"
+                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.10\\scala-library-2.12.10-sources.jar"
+                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11-sources.jar"
                         }
                     ]
                 },
@@ -580,17 +580,17 @@
                 {
                     "organization": "org.scala-lang",
                     "name": "scala-library",
-                    "version": "2.12.10",
+                    "version": "2.12.11",
                     "configurations": "optional",
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "C:\\Users\\ACER\\.sbt\\boot\\scala-2.12.10\\lib\\scala-library.jar"
+                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.10\\scala-library-2.12.10-sources.jar"
+                            "path": "C:\\Users\\ACER\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.11\\scala-library-2.12.11-sources.jar"
                         }
                     ]
                 }

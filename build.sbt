@@ -1,6 +1,6 @@
 name := "news-aggregator" 
 
-scalaVersion := "2.12.10"
+scalaVersion := "2.12.11"
 
 libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "1.0.0-RC20", 

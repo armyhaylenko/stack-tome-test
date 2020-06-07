@@ -1,37 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: C:\MYKH\VSCODE\StackTomeTest\target\scala-2.12\update\update_cache_2.12\output (The requested operation cannot be performed on a file with a user-mapped section open)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open0(Native Method)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.<init>(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using$.$anonfun$fileOutputStream$1(Using.scala:96)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using$$anon$3.openImpl(Using.scala:86)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.OpenFile.open(Using.scala:53)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.OpenFile.open$(Using.scala:47)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using$$anon$3.open(Using.scala:85)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using$$anon$3.open(Using.scala:85)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using.apply(Using.scala:25)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileBasedStore.write(CacheStore.scala:72)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.InMemoryCacheStore$CacheStoreImpl.write(InMemoryCacheStore.scala:75)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:70)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:67)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:290)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
-[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) java.io.FileNotFoundException: C:\MYKH\VSCODE\StackTomeTest\target\scala-2.12\update\update_cache_2.12\output (The requested operation cannot be performed on a file with a user-mapped section open)[0m
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ...
+[debug] Done updating 
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
