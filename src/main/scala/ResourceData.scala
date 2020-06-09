@@ -55,7 +55,10 @@ case class News(srces: List[String]) extends ResourceData[(String, String, Strin
 
 }
 
-case class Trends(src: String) extends ResourceData[String] {
+/* set strictMode to true if you want your news to contain ALL the keywords Google Trends gives us
+otherwise the search will be performed using only titles of trends */
+
+case class Trends(src: String, strictMode: Boolean) extends ResourceData[String] {
   def data(implicit backend: SttpBackend[zio.Task, Nothing, WebSocketHandler]) = {
     val trendsResponse = basicRequest.get(uri"$src").send()
     val rss = trendsResponse map (resp => XML.loadString(resp.body.right.get))
@@ -70,7 +73,7 @@ case class Trends(src: String) extends ResourceData[String] {
     using keywords is a stricter approach. may result in not getting match at all
      */
     val kw = item map (ns => (ns \ "news_item" \ "news_item_title").map(n => format(n.text)))
-    title
+    if(strictMode) kw else title
   }
 
 }

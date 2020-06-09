@@ -11,7 +11,7 @@ object NewsTrendsMatcher {
     for{
       rawTrends <- trends
     } yield rawNews.withFilter(entry => inTrend(entry, rawTrends) match {
-      //if a trend exists for an entry, inTrend return Some(value), otherwise none
+      //if a trend exists for an entry, inTrend returns Some(value), otherwise none
       case Some(_) => true
       case None => false
     })
