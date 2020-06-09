@@ -1,8 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0mC:\MYKH\VSCODE\StackTomeTest\src\main\scala\NewsGetter.scala:25:17: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : zio.ZIO[Any,Throwable,scala.collection.immutable.Vector[zio.ZIO[Any,Throwable,zio.ZIO[zio.console.Console,Nothing,Unit]]]][0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[Any,Throwable,scala.collection.immutable.Vector[zio.ZIO[Any,Throwable,zio.ZIO[zio.Has[zio.console.Console.Service],Nothing,Unit]]]][0m
-[0m[[0m[31merror[0m] [0m[0m required: zio.ZIO[zio.ZEnv,Nothing,zio.ExitCode][0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  zio.ZIO[zio.Has[zio.clock.Clock.Service] with zio.Has[zio.console.Console.Service] with zio.Has[zio.system.System.Service] with zio.Has[zio.random.Random.Service] with zio.Has[zio.blocking.Blocking.Service],Nothing,zio.ExitCode][0m
-[0m[[0m[31merror[0m] [0m[0m    articles.map(vect => vect.map(z => z.map(putStrLn(_))))[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
