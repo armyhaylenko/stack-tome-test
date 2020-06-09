@@ -16,4 +16,11 @@ scalacOptions ++= Seq(
   "-language:postfixOps"
 )
 
+assemblyJarName in assembly := "news-aggregator.jar"
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case _ => MergeStrategy.filterDistinctLines
+}
+
 addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3")
