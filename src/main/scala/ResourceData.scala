@@ -6,6 +6,10 @@ import scala.collection.immutable.Seq
 import zio.Task
 import zio.console._
 import zio.ZIO
+import io.circe.parser._
+import io.circe.Json.Null
+import io.circe.Decoder
+import io.circe.Json
 
 sealed trait ResourceData[A] {
   /* 
@@ -28,9 +32,7 @@ case class News(srces: List[String]) extends ResourceData[(String, String, Strin
   def data(implicit backend: SttpBackend[zio.Task, Nothing, WebSocketHandler]) = srces.map{ src =>
       def getNews(src: String) = {
         val newsResponse = basicRequest.get(uri"$src").send()
-        val news = newsResponse.map(resp => XML.loadString(resp.body.right.get)).catchSome {
-          case _: NoSuchElementException => newsResponse.map(resp => XML.loadString(resp.body.right.get))
-        }
+        val news = newsResponse.map(resp => XML.loadString(resp.body.right.getOrElse("")))
         val item = news map (_ \ "channel" \ "item")
         val headline = item map (_ \ "title" map (n => format(n.text)))
         val link = item map (_ \ "link" map (_.text))
@@ -58,22 +60,15 @@ case class News(srces: List[String]) extends ResourceData[(String, String, Strin
 /* set strictMode to true if you want your news to contain ALL the keywords Google Trends gives us
 otherwise the search will be performed using only titles of trends */
 
-case class Trends(src: String, strictMode: Boolean) extends ResourceData[String] {
+case class Trends(src: String) extends ResourceData[String] {
+  implicit val decoder = Decoder.decodeJson
   def data(implicit backend: SttpBackend[zio.Task, Nothing, WebSocketHandler]) = {
     val trendsResponse = basicRequest.get(uri"$src").send()
-    val rss = trendsResponse map (resp => XML.loadString(resp.body.right.get))
-    val item = rss map (_ \ "channel" \ "item")
-    /* 
-    using title is not a strict approach. may result in matches that contain words from the title 
-    not in order and in different parts of the text, thus making the selection contain news that 
-    aren't actually in trend.
-     */
-    val title = item map (_ \ "title" map (n => format(n.text)))
-    /* 
-    using keywords is a stricter approach. may result in not getting match at all
-     */
-    val kw = item map (ns => (ns \ "news_item" \ "news_item_title").map(n => format(n.text)))
-    if(strictMode) kw else title
+    //json comes with this weird ")]}'," start, clean up this thing
+    val parsed = trendsResponse map (json => parse(json.body.right.getOrElse("{}").replaceFirst("(\\)]}',)", "")))
+    val titlesEncoded = parsed map (_.right.getOrElse(Json.Null).findAllByKey("query"))
+    val titlesDecoded = titlesEncoded map (_ map (_.toString().toLowerCase()))
+    titlesDecoded
   }
 
 }

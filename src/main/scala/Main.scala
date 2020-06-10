@@ -6,12 +6,13 @@ import zio.duration._
 import zio.console._
 import sttp.client.asynchttpclient.zio.AsyncHttpClientZioBackend
 import scala.io.Source._
+import scala.collection.immutable.Seq
 import java.io.File
+import java.time.LocalDate
 
 object Main extends zio.App {
-  
   //sbt did not want to include the file with links to the assembly task, had to put the links here
-  val links = List("https://112.ua/rss/analytics/index.rss",
+  val newsRssLinks = List("https://112.ua/rss/analytics/index.rss",
   "https://112.ua/rss/statji/index.rss",
   "https://112.ua/rss/mnenie/index.rss",
   "https://112.ua/rss/interview/index.rss",
@@ -29,9 +30,12 @@ object Main extends zio.App {
 
   override def run(args: List[String]): ZIO[zio.ZEnv,Nothing, ExitCode] = {
     AsyncHttpClientZioBackend().flatMap { implicit backend =>
-      val allNews = News(links).data
-      val trends = Trends("https://trends.google.com/trends/trendingsearches/daily/rss?geo=UA", strictMode = false).data
-      print(NewsTrendsMatcher(allNews, trends)) *> backend.close()
+      val date = LocalDate.now().minusDays(7).toString().replaceAll("-", "")
+      val trendsLink = 
+      s"https://trends.google.com/trends/api/dailytrends?hl=en-US&tz=-180&ed=$date&geo=UA&ns=15"
+      val allNews = News(newsRssLinks).data
+      val trends = Trends(trendsLink).data
+      print(allNews) *> backend.close()
     } repeat (Schedule.spaced(300 seconds)) exitCode
   }
   

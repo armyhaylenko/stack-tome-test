@@ -10,6 +10,8 @@ libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "1.0.0-RC20", 
   "com.softwaremill.sttp.client" %% "core" % "2.1.5",
   "com.softwaremill.sttp.client" %% "async-http-client-backend-zio" % "2.1.5",
+  "io.circe" %% "circe-generic" % "0.13.0",
+  "io.circe" %% "circe-parser" % "0.13.0",
   "org.scala-lang.modules" %% "scala-xml" % "1.2.0")
 scalacOptions ++= Seq(
   "-feature",
