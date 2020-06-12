@@ -30,12 +30,13 @@ object Main extends zio.App {
 
   override def run(args: List[String]): ZIO[zio.ZEnv,Nothing, ExitCode] = {
     AsyncHttpClientZioBackend().flatMap { implicit backend =>
-      val date = LocalDate.now().minusDays(7).toString().replaceAll("-", "")
-      val trendsLink = 
-      s"https://trends.google.com/trends/api/dailytrends?hl=en-US&tz=-180&ed=$date&geo=UA&ns=15"
+      val trends = (0 to 7).toList.map{day => 
+      val intermediateDate = LocalDate.now().minusDays(day).toString().replaceAll("-", "")
+      val link = s"https://trends.google.com/trends/api/dailytrends?hl=en-US&tz=-180&ed=$intermediateDate&geo=UA&ns=15"
+      Trends(link).data
+    }.reduce((z1, z2) => z1.zipWithPar(z2)(_ ::: _))
       val allNews = News(newsRssLinks).data
-      val trends = Trends(trendsLink).data
-      print(allNews) *> backend.close()
+      print(NewsTrendsMatcher(allNews, trends)) *> backend.close()
     } repeat (Schedule.spaced(300 seconds)) exitCode
   }
   
