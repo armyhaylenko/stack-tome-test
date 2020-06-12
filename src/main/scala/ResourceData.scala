@@ -57,9 +57,6 @@ case class News(srces: List[String]) extends ResourceData[(String, String, Strin
 
 }
 
-/* set strictMode to true if you want your news to contain ALL the keywords Google Trends gives us
-otherwise the search will be performed using only titles of trends */
-
 case class Trends(src: String) extends ResourceData[String] {
   implicit val decoder = Decoder.decodeJson
   def data(implicit backend: SttpBackend[zio.Task, Nothing, WebSocketHandler]) = {
